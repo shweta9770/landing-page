@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    overflow-x: hidden;
+}
+
+#page1{
+    height: 100vh;
+    width: 100vw;
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    /* background-color: antiquewhite; */
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: sans-serif;
+}
+#nav h1{
+    color:#3b60cb;
+}
+#nav2{
+    width: 50%;
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: space-between;
+}
+#centre{
+    height: calc(100% - 80px);
+    width: 100%;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+#centre img{
+    height: 520px;
+    transform: rotateY(180deg);
+}
+#left{
+    width: 40%;
+    height: 100%;
+}
+#left h1{
+    line-height: 70px;
+    font-size: 70px;
+    font-weight: 600;
+}
+#left span{
+    color: #fa8b6d;
+
+}
+#left p{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#left button{
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #fa8b6d;
+    color: white;
+}
+#page2{
+    /* background-color: darkcyan; */
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page2 h1{
+    position: absolute;
+    top: 3%;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 52px;
+    padding-top: 50px;
+
+}
+
+#box{
+    margin: 0 50px;
+    height: 250px;
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 0 0 18px rgb(185, 185, 94);
+    text-align: center;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#box h3{
+    font-size: 20px;
+    color: rgb(158, 158, 57);
+}
+#page3{
+    height: 100vh;
+    width: 100vw;
+    /* padding-top: 50px; */
+    /* background-color: #fa8b6d; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+#page3 h1{
+    font-size: 44px;
+    font-family: sans-serif;
+
+}
+#imgdiv{
+    height: 450px;
+    width: 700px;
+    
+}
+#imgdiv img{
+    height: 100%;
+    width: 100%;
+
+}
